@@ -2,7 +2,7 @@
 
 ## Informação do aluno
 
-    Nome: ...
+    Nome: Edson Fernando Cachoeira Filho
 
 Teste termina às 09:40 (Turno 1) / 13:25 (Turno 2).
 
@@ -17,7 +17,7 @@ Não desformates o documento.
 
 P1 - Resposta
 
-    ...
+    
 
 ### 2. Considera o seguinte código
 
@@ -30,16 +30,22 @@ P1 - Resposta
 
 P2 - Resposta
 
-    ...
+    
 
 ### 3. Escreve um programa que solicite uma string ao utilizador, e seguidamente a mostre no ecrã de forma invertida
 
 P3 - Resposta
 
-    ...
+            string a;
+            Console.WriteLine("introduza uma string: ");
+            a = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine(string.Format("a string inserida foi: {0}", a));
+    
 
 ### 4. Quais são os comandos Git para configurares, de uma forma global, o teu **nome** e **email** para realização de *commits*? E se essa configuração for apenas para um repositório?
 
 P4 - Resposta
 
-    ...
+    deve se usar o comando --global porque então o Git usará esta informação para qualquer coisa que você fizer naquele sistema. Se você quiser substituir essa informação com nome diferente para um projeto específico, você pode rodar o comando sem a opção --global dentro daquele projeto.
